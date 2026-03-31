@@ -15,7 +15,13 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Deploy (production)
 
-This is a [Next.js](https://nextjs.org/) app. Recommended: [Vercel](https://vercel.com/) — import the GitHub repo and set `OPENAI_API_KEY` in project environment variables.
+**Live (Vercel):** [https://ai-interview-simulator-blush.vercel.app](https://ai-interview-simulator-blush.vercel.app)
+
+In [Vercel](https://vercel.com/) → your project → **Settings → Environment Variables**, add:
+
+- `OPENAI_API_KEY` — optional; without it the app uses demo questions and demo scoring.
+
+Redeploy after adding variables. GitHub repo is linked for automatic deployments on push.
 
 ```bash
 npm run build && npm start
